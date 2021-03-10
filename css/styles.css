@@ -1119,6 +1119,12 @@ h6
 
 @media only screen and (max-width: 420px)
 {
+	.page-heading
+	{
+		font-size: 34px;
+		font-weight: 600;
+	}
+	
 	#sidebar-wrapper
 	{
 		min-width: 0;
@@ -1146,6 +1152,11 @@ h6
 	.row-container
 	{
 		padding: 50px 20px;
+	}
+	
+	.center-profile-content
+	{
+		padding-top: 60px;
 	}
 	
 	#content-wrapper 
