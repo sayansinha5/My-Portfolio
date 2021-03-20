@@ -1129,9 +1129,7 @@ h6
 	{
 		width: 100%;
 		padding-bottom: 1px;
-		padding-top: 4.6px;
-		padding-left: 10px;
-		padding-right: 10px;
+		padding-top: 5px;
 		
 		position: fixed;
 		top: unset !important;
@@ -1140,23 +1138,24 @@ h6
 		overflow: hidden;
 		overflow-x: auto;
 		background-color: #ffffff;
+		box-shadow: 0px -2px 8px 0px rgba(0,0,0,0.1);
+		
 		transition: 0.3s; /* 0.3 second transition effect to slide in the sidenav */
 	}
 	
 	#sidebar-wrapper .sidebar-btns
 	{
+		padding-left: 10px;
+		padding-right: 10px;
+		position: fixed;
+		top: unset !important;
+		left: 0 !important;
 		display: inline-block;
 		overflow: hidden;
 		overflow-y: hidden;
 		overflow-x: auto;
 		max-width: 100%;
 		white-space: nowrap;
-	}
-	
-	#sidebar-wrapper .sidebar-btns li
-	{
-		display: inline-block;
-	
 	}
 	
 	#content-wrapper {
@@ -1175,17 +1174,13 @@ h6
 	
 	.center-profile-content
 	{
-		padding-top: 80px;
+		padding-top: 40px;
 	}
 	
 	#content-wrapper 
 	{
 		padding-left: 0px;
 		padding-right: 0px;
-	}
-	
-	#topBar {
-		display: block;
 	}
 	
 	.btn-basic
